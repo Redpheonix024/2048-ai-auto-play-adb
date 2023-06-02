@@ -57,7 +57,11 @@ This is a simple 2048 automatic player that is guaranteed to win and achieve a h
 
 1. Open the 2048 game on your phone.
 2. For linux systems frist use cammand
-   g++ -shared -fPIC -o lib20489.so 2048.cpp 
+
+
+   g++ -shared -fPIC -o lib20489.so 2048.cpp
+   
+   
    after installing g++ and fPIC and then run the above command
    You also want to uncomment the line  "pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'" as it uses windows directory of      tesseract  
 3. Run the automatic player script by executing `main.py`.
